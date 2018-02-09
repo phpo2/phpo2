@@ -1,1 +1,37 @@
-[]
+[
+    {
+        "name": "phpo2/framework",
+        "version": "dev-develop",
+        "version_normalized": "dev-develop",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phpo2/framework.git",
+            "reference": "ad735f9127f1141f0a499fa68ff213e514e0dd41"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phpo2/framework/zipball/ad735f9127f1141f0a499fa68ff213e514e0dd41",
+            "reference": "ad735f9127f1141f0a499fa68ff213e514e0dd41",
+            "shasum": ""
+        },
+        "time": "2018-02-09T05:29:50+00:00",
+        "type": "project",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "PHPO2\\": "PHPO2/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "The Framework for Web Services.",
+        "keywords": [
+            "framework",
+            "micro-framework",
+            "phpo2",
+            "web-services"
+        ]
+    }
+]

@@ -5,6 +5,7 @@
     "license": "MIT",
     "type": "project",
     "require": {
+        "phpo2/framework": "@dev"
     },
     "require-dev": {
     },

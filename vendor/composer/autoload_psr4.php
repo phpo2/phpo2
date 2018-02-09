@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'PHPO2\\' => array($vendorDir . '/phpo2/framework/PHPO2'),
     'App\\' => array($baseDir . '/app'),
 );
