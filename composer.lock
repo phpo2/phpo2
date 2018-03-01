@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c4bc9cfce65fe129c2291bc7c3b2a109",
+    "packages": [
+        {
+            "name": "phpo2/framework",
+            "version": "dev-features/manage-core-framework",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpo2/framework.git",
+                "reference": "9604f2cd3f318ac8b24a2c7bd39c8304fb0aff3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpo2/framework/zipball/9604f2cd3f318ac8b24a2c7bd39c8304fb0aff3a",
+                "reference": "9604f2cd3f318ac8b24a2c7bd39c8304fb0aff3a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "PHPO2\\": "src/PHPO2/"
+                },
+                "files": [
+                    "src/PHPO2/Foundation/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The Framework for Web Services.",
+            "keywords": [
+                "framework",
+                "micro-framework",
+                "phpo2",
+                "web-services"
+            ],
+            "time": "2018-02-23T15:37:03+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "phpo2/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
