@@ -4,27 +4,33 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0be8376a7aea6f1a9d1c44931cac1176",
+    "content-hash": "c4bc9cfce65fe129c2291bc7c3b2a109",
     "packages": [
         {
             "name": "phpo2/framework",
-            "version": "dev-develop",
+            "version": "dev-features/manage-core-framework",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpo2/framework.git",
-                "reference": "ad735f9127f1141f0a499fa68ff213e514e0dd41"
+                "reference": "9604f2cd3f318ac8b24a2c7bd39c8304fb0aff3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpo2/framework/zipball/ad735f9127f1141f0a499fa68ff213e514e0dd41",
-                "reference": "ad735f9127f1141f0a499fa68ff213e514e0dd41",
+                "url": "https://api.github.com/repos/phpo2/framework/zipball/9604f2cd3f318ac8b24a2c7bd39c8304fb0aff3a",
+                "reference": "9604f2cd3f318ac8b24a2c7bd39c8304fb0aff3a",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
             },
             "type": "project",
             "autoload": {
                 "psr-4": {
-                    "PHPO2\\": "PHPO2/"
-                }
+                    "PHPO2\\": "src/PHPO2/"
+                },
+                "files": [
+                    "src/PHPO2/Foundation/helpers.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -37,12 +43,12 @@
                 "phpo2",
                 "web-services"
             ],
-            "time": "2018-02-09T05:29:50+00:00"
+            "time": "2018-02-23T15:37:03+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "phpo2/framework": 20
     },

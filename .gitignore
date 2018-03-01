@@ -6,4 +6,3 @@ Thumbs.db
 /phpunit.xml
 /.idea
 /.vscode
-composer.lock
